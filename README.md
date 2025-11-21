@@ -24,20 +24,7 @@ KEY FEATURES:
   – Future support for automatic bulk comparison
 
 PROJECT STRUCTURE:
-CodeGraderr-main/
-│ backend/
-│ ├── main.py               (FastAPI server + routes)
-│ ├── compare_engine.py     (Similarity algorithms)
-│ ├── plagiarism.py         (Normalization + comparison)
-│ ├── storage.py            (Report storage)
-│ └── requirements.txt
-│
-│ src/
-│ ├── pages/                (React pages including Plagiarism.tsx)
-│ ├── components/           (UI components)
-│ └── main.tsx
-│
-└── public/
+<img width="385" height="579" alt="image" src="https://github.com/user-attachments/assets/8cf90f14-9c71-4ac3-8326-116a2a79503f" />
 
 SETUP INSTRUCTIONS:
 
@@ -75,7 +62,7 @@ HOW TO TEST PLAGIARISM FEATURE:
 5. JSON report is saved to backend/reports.json
 6. UI automatically displays updated report count
 
-API ENDPOINTS (Member 4 created):
+API ENDPOINTS :
 
 POST /compare  
 Input: two files  
